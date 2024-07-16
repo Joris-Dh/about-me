@@ -25,6 +25,8 @@ p {
   padding-bottom: 5px;
   font-size: 15px;
   font-weight: 100;
+  width: 600px;
+  text-align: center;
 }
 
 td {
