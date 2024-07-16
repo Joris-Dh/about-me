@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
     font-family: 'Open sans', sans-serif;
     display: grid;
@@ -16,9 +22,17 @@ h1, h2 {
   color: #f0c857;
 }
 
+h1 {
+  padding: 25px;
+}
+
 h2 {
-  padding-top: 25px;
-  padding-bottom: 0px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+h3 {
+  padding: 25px;
 }
 
 p {
@@ -37,9 +51,7 @@ td {
 
 .quote {
   font-size: 15px;
-    width: 600px;
-    padding-left: 10px;
-    padding-right: 10px;
+  width: 600px;
 }
 
 .profile_picture {
@@ -64,4 +76,8 @@ a:hover {
 input[type="checkbox"] {
   vertical-align: middle;
   accent-color: #609bc9;
+}
+
+.footer {
+  padding: 20px;
 }
